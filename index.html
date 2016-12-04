@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css" media="screen" title="no title">
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <title>My personal website</title>
+  </head>
+
+  <body>
+    <div class="outside">
+      <header id="default" class="flex-text">
+        <p1>Code your</p>
+        <p2>dreams.</p>
+      </header>
+      <div class="inside">
+
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#"><img src="photos/planetW.png" id="logo" alt="Icon by Bryan Sellers" /></a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#anchor2">Home</a></li>
+                <li><a href="#anchor1">Projects</a></li>
+                <li><a href="#anchor3">Contact</a></li>
+              </ul>
+
+            </div>
+          </div>
+        </nav>
+
+
+
+        <span class="anchor" id="anchor2"></span>
+        <article id="art1">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-sm-6 first_para" id="mydes">
+                <h1> Witold Zolnowski</h1>
+                <h1 class="software text-muted"> Software Developer</h1>
+                <p>
+                  I like long walks, cheap beer, and fast motorbikes.
+                  My neighbor's cat is called 'Ruby' which means that I should be, by proximity, a software developer.
+                  If I could describe myself in one word, it would have to be: 'Mindblowing Awesomeness'. Yup, I can do maths too!
+                </p>
+              </div>
+              <div class="col-sm-6 mypic">
+                <img id="face" src="photos/myface.jpg" alt="My Picture" />
+              </div>
+            </div>
+          </div>
+        </article>
+        <hr>
+        <article class="container-fluid" id="art2">
+          <div id="margin_2">
+            <ul id="icons">
+              <li class="col-sm-4 col-xs-12">
+                <img src="photos/monitor.png" alt="" /><h3>Web Design</h3>
+              </li>
+              <li class="col-sm-4 col-xs-12"><img src="photos/cogs.png" alt="" /><h3>
+                Macros
+              </h3></li>
+              <li class="col-sm-4 col-xs-12"><img src="photos/browser.png" alt="" /><h3>
+                Front End Development
+              </h3></li>
+            </ul>
+          </div>
+        </article>
+        <article id="art3">
+          <span class="anchor" id="anchor1"></span>
+          <h1 id="mywork">Projects</h1>
+          <div class="row">
+            <div class="col-sm-4 col-xs-12 nopad">
+              <img src="photos/a1.png" class="img-thumbnail img-responsive" alt="" />
+            </div>
+            <div class="col-sm-4 col-xs-12 nopad" id="test">
+              <img src="photos/a2.png" class="img-thumbnail img-responsive" alt="" />
+            </div>
+            <div class="col-sm-4 col-xs-12 nopad">
+              <img src="photos/a3.png" class="img-thumbnail" alt="" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-4 col-xs-12 nopad">
+              <img src="photos/a4.png" class="img-thumbnail" alt="" />
+            </div>
+            <div class="col-sm-4 col-xs-12 nopad">
+              <img src="photos/a5.png" class="img-thumbnail" alt="" />
+            </div>
+            <div class="col-sm-4 col-xs-12 nopad">
+              <img src="photos/a6.png" class="img-thumbnail"   alt="" />
+            </div>
+          </div>
+        </article>
+        <span id="anchor3"></span>
+        <article class="slides">
+          <div class="quote">
+            <div class="row">
+              <button id="button_left" class="fa fa-arrow-left" type="button" name="button" onclick="plusDivs(-1)"></button>
+
+              <div class="img_wrap w3-animate-top">
+                <img src="photos/he-man.jpg" class="" alt="" />
+                <p style="text-align: center">
+                  <strong> He Man </strong>
+                </p>
+              </div>
+              <h2 class="quote2 w3-animate-bottom"><strong>Cringer </strong> became the Mighty Battle Cat, and I became He-Man the most powerful man in the universe. Only a few others share this secret... Our friends: The Sorceress, Man-At-Arms and Witold. Together we defend Castle Greyskull from the evil forces of Skeletor.</h2>
+              <button id="button_right" class="fa fa-arrow-right" type="button" name="button" onclick="plusDivs(+1)"></button>
+            </div>
+          </div>
+          <div class="quote">
+            <div class="row">
+              <button id="button_left" class="fa fa-arrow-left" type="button" name="button" onclick="plusDivs(-1)"></button>
+
+              <div class="img_wrap w3-animate-top">
+                <img src="photos/lego_man.jpg" class="" alt="" />
+                <p style="text-align: center">
+                  <strong> Lego Man </strong>
+                </p>
+              </div>
+              <h2 class="quote1 w3-animate-bottom"><strong>Witold?</strong> He builds websites and stuff...child's play! I've build whole worlds!!!! So yea, next time you want things get done, I'm your guy!</h4>
+              <button id="button_right" class="fa fa-arrow-right" type="button" name="button" onclick="plusDivs(+1)"></button>
+            </div>
+          </div>
+          <div class="quote">
+            <div class="row">
+              <button id="button_left" class="fa fa-arrow-left" type="button" name="button" onclick="plusDivs(-1)"></button>
+              <div class="img_wrap w3-animate-top">
+                <img src="photos/lana.jpg" class="" alt="" />
+                <p style="text-align: center">
+                  <strong> Lana Kane </strong>
+                </p>
+              </div>
+              <h2 class="quote2 w3-animate-bottom"><strong>He's </strong> a computer guy or something...more importantly, have you ever wondered why is a person who plays the piano called a pianist, but a person who drives a race car not called a racist? </h2>
+              <button id="button_right" class="fa fa-arrow-right" type="button" name="button" onclick="plusDivs(+1)"></button>
+            </div>
+          </div>
+        </article>
+
+        <form class="contact" action="index1.php" method="post" id="contact">
+          <div class="contact_head">
+            <legend class="legend">Contact me!</legend>
+                <div class="social_icon instagram">
+                  <a href="https://www.instagram.com/wzolnowski/" class="hvr-pulse" target="_blank"><img src="photos/instagram.png" alt="Instagram" /></a>
+                  <a href="https://www.flickr.com/photos/witoldzolnowski" class="hvr-pulse" target="_blank"><img src="photos/flickr.png" alt="Flickr" /></a>
+                  <a href="https://ie.linkedin.com/in/witold-zolnowski-17b13262" class="hvr-pulse" target="_blank"><img src="photos/linkedin.png" alt="LinkedIn" /></a>
+                  <a href="https://twitter.com/WZolnowski" class="hvr-pulse" target="_blank"><img src="photos/twitter-1.png" alt="Twitter" /></a>
+                </div>
+                <hr>
+          </div>
+          <div class="table">
+            <div class="name">
+              <p>Name:</p>
+              <input type="text" name="name" value="">
+            </div>
+            <div class="email">
+              <p>Email: </p>
+              <input type="email" name="email" value="">
+            </div>
+            <div class="msg">
+              <p>Message: </p>
+              <textarea name="msg" rows="8" cols="40" id="msg"></textarea>
+            </div>
+            <div class="contact_submit">
+              <input type="submit" class="submit_button" name="submit" value="SEND">
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script type="text/javascript" src="jquery-3.1.1.js"></script>
+    <script src="scripts.js"> </script>
+    <art4>
+      <div class="footer">
+        <img src="photos/footer.jpg"  alt="" />
+      </div>
+    </art4>
+  </body>
+</html>
